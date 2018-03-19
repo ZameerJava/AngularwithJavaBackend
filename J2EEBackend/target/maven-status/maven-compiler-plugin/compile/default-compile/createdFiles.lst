@@ -1,0 +1,4 @@
+com\dunebook\webclipse\example\rest\PersonFacadeREST.class
+com\dunebook\webclipse\example\EntityManagerHelper.class
+com\dunebook\webclipse\example\rest\AbstractFacade.class
+com\dunebook\webclipse\example\Person.class
