@@ -1,0 +1,19 @@
+<div align="center">
+<p>
+  Person Detail information!
+</p>
+</div>
+<section *ngIf="person" class = "panel">
+<div class="input-group">
+               
+			<span>Id:</span> 
+			<input type="text" class = "form-control textCss" [(ngModel)]="person.id">
+			<span>Name:</span> 
+			<input type="text" class = "form-control textCss" [(ngModel)]="person.name">
+			<span>Gender:</span> 
+			<input type="text" class = "form-control textCss" [(ngModel)]="person.gender">
+			<span>City:</span> 
+			<input type="text" class = "form-control textCss" [(ngModel)]="person.city">
+			
+		</div>
+</section>
